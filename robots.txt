@@ -1,0 +1,12 @@
+User-Agent: *
+Disallow: /etc/
+Disallow: /logs/
+Disallow: /mail/
+Disallow: /public_ftp/
+Disallow: /tmp/
+Disallow: /access-logs/
+
+User-agent: *
+Allow: /public_html
+
+Sitemap: http://www.kirilkostov.com/sitemap.xml
